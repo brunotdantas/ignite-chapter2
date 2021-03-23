@@ -89,7 +89,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
                         activeColor="red"
                     >
                         <img src={outcomeImg} alt="Saída" />
-                        <span>Entrada</span>
+                        <span>Saída</span>
                     </RadioBox>
 
                 </TransactionTypeContainer>

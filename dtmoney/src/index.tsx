@@ -13,26 +13,26 @@ createServer({
       transactions: [
         {
           id: 1,
-          title: 'desenvolvimento 1',
-          type: 'deposit',
-          category: 'Dev',
-          amount: 600,
+          title: 'Aluguel',
+          type: 'withdraw',
+          category: 'Despesas fixas',
+          amount: 1700,
           createdAt: new Date('2021-02-12 09:00:00'),
         },
         {
           id: 2,
-          title: 'desenvolvimento 2',
+          title: 'Condomínio',
           type: 'withdraw',
-          category: 'Dev',
-          amount: 600,
+          category: 'Despesas fixas',
+          amount: 650,
           createdAt: new Date('2021-02-12 09:00:00'),
         },
         {
           id: 3,
-          title: 'desenvolvimento 3',
+          title: 'Salário',
           type: 'deposit',
-          category: 'Dev',
-          amount: 600,
+          category: 'Rendimentos',
+          amount: 8000,
           createdAt: new Date('2021-02-12 09:00:00'),
         }
       ]
